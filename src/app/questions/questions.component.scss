@@ -1,0 +1,17 @@
+.card{
+    max-width: 600px;
+    margin: 2px auto;
+}
+.image{
+    img{
+        height: 90px;
+        width: 90px;
+    }
+}
+li{
+    list-style-type: none;
+    cursor: pointer;
+}
+li .card:hover{
+    border: 1px solid skyblue;
+}
